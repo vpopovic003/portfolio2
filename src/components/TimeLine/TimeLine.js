@@ -44,7 +44,14 @@ const Timeline = () => {
 
   return (
     <div>
-      Timeline
+      <Section id="about">
+        <SectionTitle>About Me</SectionTitle>
+        <SectionText>
+          My name is Vladimir Popovic. <br />
+          Learning about programming ... I created tools ... I work on startup ...
+        </SectionText>
+
+      </Section>
     </div>
   );
 };
