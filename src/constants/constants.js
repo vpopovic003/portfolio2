@@ -3,13 +3,13 @@ export const projectsWeb = [
     title: 'Gitarologia',
     description: "This is a startup project. Gitarologia is a platform that will provide comprehensive guitar courses to anyone who wants to learn. The approach is on a new proven metodology od teaching popular guitar.",
       image: '/images/project-gitarologia.png',
-      tags: ['Next.js', 'Mongo', 'Sass'],
+      tags: ['Next.js', 'Mongo'],
     visit: 'https://gitarologia-cu2t0l3f0-makragic.vercel.app/',
     id: 0,
   },
   {
     title: 'Plus50x',
-    description: "The final project for Hardvard's CS50 - Introduction to Computer Science course. This is a redesign of Hardvard's learning platform, design with idea of making all courses and materials easy to access.",
+    description: "The final project for Hardvard's CS50 - Introduction to Computer Science course. This is a redesign of Hardvard's learning platform, design with the idea of making all courses and materials easy to access.",
     image: '/images/project-plus50x.png',
     tags: ['Flask', 'SQLite'],
     source: 'https://github.com/vpopovic003/plus50x',
@@ -18,7 +18,7 @@ export const projectsWeb = [
   },
   {
     title: 'Robofriends',
-    description:"This is a learning project for course 'The Complete Web Developer: Zero to Mastery.' This application generates random robot images fetched from JSON data using web API, and allow a user to search throuh them.",
+    description:"This is a learning project for course 'The Complete Web Developer: Zero to Mastery.' This application generates random robot images fetched from JSON data using API, and allow a user to search through them.",
     image: '/images/project-robofriends.png',
     tags: ['ReactJS'],
     source: 'https://github.com/vpopovic003/robofriends',
@@ -27,7 +27,7 @@ export const projectsWeb = [
   },
   {
     title: 'Movieland',
-    description: "This web app allows users to search movies through a movie database using OMDB web API.",
+    description: "Learning project from a ReactJS course by JavaScript mastery. This web app allows users to search movies through a movie database using OMDB API.",
       image: '/images/project-movieland.png',
       tags: ['ReactJS'],
     source: 'https://github.com/vpopovic003/movieland',
@@ -37,7 +37,7 @@ export const projectsWeb = [
 
   {
       title: 'Anitrone',
-      description: "Software developed for client needs. This application can animate various elements in the metronome time, and then export animation as mp4 file.",
+      description: "Windows software developed for client needs. This application can animate various elements in the metronome time, and then export the animation as mp4 file. Made in Python and Python's version of a QT library for making UI-s.",
       image: '/images/project-anitrone.png',
       tags: ['Python', 'PyQT'],
       source: 'https://github.com/vpopovic003/anitrone-python',
@@ -46,7 +46,7 @@ export const projectsWeb = [
   },
   {
     title: 'AnitroneWEB',
-    description: "This served as a DEMO and a proof of concept for the later developed Anitrone desktop application. This application can animate various elements in the metronome time.",
+    description: "This served as a DEMO and a proof of concept for the later developed Anitrone Windows desktop application. This application can animate various elements in the metronome time.",
       image: '/images/project-anitroneweb.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/anitrone-web',
@@ -55,7 +55,7 @@ export const projectsWeb = [
   },
   {
     title: 'Chordbox',
-    description: "This is a web app made for client needs, and is used making guitar chords diagrams. You can select fingers and then export the image in PNG format.",
+    description: "This is a web app made for client needs, and is used making guitar chord diagrams. You can select fingers and then export the image in PNG format.",
       image: '/images/project-chordbox.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/chordbox',
@@ -64,7 +64,7 @@ export const projectsWeb = [
   },
   {
     title: 'CodeKeen',
-    description: "This is a website made with 90s aesthetics, but using modern HTML5 and CSS3. It is a fun project that I made in spare time.",
+    description: "This is a website made with 90s aesthetics, but using modern HTML5 and CSS3 aproach. It is a fun project that I made in spare time, as I am a fan of retro website aethetics.",
       image: '/images/project-codekeen.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/codekeen',

@@ -12,7 +12,7 @@ const Hero = () => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        Ovde je neko objasnjenje o tome ko sam ja i sta radim i malo je poduze. Napravicemo to duze i nesto napisati.
+        Hello and welcome. This website contains my personal portfolio of projects I worked on. Check out the projects bellow or download my CV. Enjoy!
       </SectionText>
       <Button onClick={() => window.location = 'https://google.com'}>Download CV</Button>
     </LeftSection>
