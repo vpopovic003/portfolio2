@@ -2,14 +2,15 @@ import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import { projectsWeb } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
+    {/* <HeaderThree title>Web Development</HeaderThree> */}
     <GridContainer>
-      {projects.map(({ id, image, title, description, tags, source, visit}) => (
+      {projectsWeb.map(({ id, image, title, description, tags, source, visit, download}) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
@@ -26,8 +27,18 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Live</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            {visit
+            ? <ExternalLinks href={visit}>View Live</ExternalLinks>
+            : null
+            }
+            {download
+            ? <ExternalLinks href={download}>Download</ExternalLinks>
+            : null
+            }
+            {source
+            ? <ExternalLinks href={source}>GitHub</ExternalLinks>
+            : null
+            }    
           </UtilityList>
         </BlogCard>
       ))}
