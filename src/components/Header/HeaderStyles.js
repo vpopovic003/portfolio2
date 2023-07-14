@@ -43,7 +43,7 @@ export const Div2 = styled.div`
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
@@ -117,14 +117,14 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons 
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
+  &:hover {
+      background-color: #212d45;
+      transform: scale(1.2);
+      cursor: pointer;
     
   }
 `
