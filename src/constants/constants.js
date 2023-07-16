@@ -4,7 +4,7 @@ export const projectsWeb = [
     description: "This is a startup project. Gitarologia is a platform that will provide comprehensive guitar courses to anyone who wants to learn. The approach is on a new proven metodology od teaching popular guitar.",
       image: '/images/project-gitarologia.png',
       tags: ['Next.js', 'Mongo'],
-    visit: 'https://gitarologia-cu2t0l3f0-makragic.vercel.app/',
+    visit: 'https://gitarologia-20kbjbwcg-makragic.vercel.app/',
     id: 0,
   },
   {
