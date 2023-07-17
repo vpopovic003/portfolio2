@@ -17,6 +17,15 @@ export const projectsWeb = [
     id: 3,
   },
   {
+    title: 'Face-Brain',
+    description:"An app that detect faces in photos using Clarifai API.",
+    image: '/images/project-face-brain.png',
+    tags: ['ReactJS'],
+    source: 'https://github.com/vpopovic003/face-brain',
+    visit: 'https://vpopovic003.github.io/face-brain/',
+    id: 9,
+  },
+  {
     title: 'Robofriends',
     description:"This is a learning project for course 'The Complete Web Developer: Zero to Mastery.' This application generates random robot images fetched from JSON data using API, and allow a user to search through them.",
     image: '/images/project-robofriends.png',
