@@ -13,7 +13,7 @@ export const projectsWeb = [
     image: '/images/project-plus50x.png',
     tags: ['Flask', 'SQLite'],
     source: 'https://github.com/vpopovic003/plus50x',
-    visit: 'https://www.youtube.com/watch?v=tWOz693ZLHE',
+    video: 'https://www.youtube.com/watch?v=tWOz693ZLHE',
     id: 3,
   },
   {
@@ -33,15 +33,6 @@ export const projectsWeb = [
     source: 'https://github.com/vpopovic003/robofriends',
     visit: 'https://vpopovic003.github.io/robofriends/',
     id: 1,
-  },
-  {
-    title: 'Movieland',
-    description: "Learning project from a ReactJS course by JavaScript mastery. This web app allows users to search movies through a movie database using OMDB API.",
-      image: '/images/project-movieland.png',
-      tags: ['ReactJS'],
-    source: 'https://github.com/vpopovic003/movieland',
-    visit: 'https://vpopovic003.github.io/movieland/',
-    id: 2,
   },
   {
       title: 'Anitrone',

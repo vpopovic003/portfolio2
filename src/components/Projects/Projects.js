@@ -38,7 +38,11 @@ const Projects = () => (
             {source
             ? <ExternalLinks href={source}>GitHub</ExternalLinks>
             : null
-            }    
+            }
+            {video
+            ? <ExternalLinks href={source}>Video Demo</ExternalLinks>
+            : null
+            }     
           </UtilityList>
         </BlogCard>
       ))}
