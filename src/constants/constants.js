@@ -4,7 +4,7 @@ export const projectsWeb = [
     description: "This is a startup project. Gitarologia is a platform that will provide comprehensive guitar courses to anyone who wants to learn. The approach is on a new proven metodology od teaching popular guitar.",
       image: '/images/project-gitarologia.png',
       tags: ['Next.js', 'Mongo'],
-    visit: 'https://gitarologia-20kbjbwcg-makragic.vercel.app/',
+    visit: 'https://gitarologia-34fg3qdnw-makragic.vercel.app/',
     id: 0,
   },
   {
@@ -13,7 +13,7 @@ export const projectsWeb = [
     image: '/images/project-plus50x.png',
     tags: ['Flask', 'SQLite'],
     source: 'https://github.com/vpopovic003/plus50x',
-
+    visit: 'https://www.youtube.com/watch?v=tWOz693ZLHE',
     id: 3,
   },
   {
@@ -43,7 +43,6 @@ export const projectsWeb = [
     visit: 'https://vpopovic003.github.io/movieland/',
     id: 2,
   },
-
   {
       title: 'Anitrone',
       description: "Windows software developed for client needs. This application can animate various elements in the metronome time, and then export the animation as mp4 file. Made in Python and Python's version of a QT library for making UI-s.",
