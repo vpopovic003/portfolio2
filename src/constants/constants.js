@@ -17,6 +17,15 @@ export const projectsWeb = [
     id: 3,
   },
   {
+    title: 'Restaurant Page',
+    description: "A restaurant business page.",
+      image: '/images/project-restaurant.png',
+      tags: ['ReactJS'],
+    source: 'https://github.com/vpopovic003/restaurant-page/',
+    visit: 'https://vpopovic003.github.io/restaurant-page/',
+    id: 9,
+  },
+  {
     title: 'Face-Brain',
     description:"An app that detect faces in photos using Clarifai API.",
     image: '/images/project-face-brain.png',
