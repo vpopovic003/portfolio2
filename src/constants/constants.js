@@ -8,15 +8,6 @@ export const projectsWeb = [
     id: 0,
   },
   {
-    title: 'Restaurant Page',
-    description: "A restaurant business page.",
-      image: '/images/project-restaurant.png',
-      tags: ['ReactJS'],
-    source: 'https://github.com/vpopovic003/restaurant-page/',
-    visit: 'https://vpopovic003.github.io/restaurant-page/',
-    id: 9,
-  },
-  {
     title: 'Plus50x',
     description: "The final project for Hardvard's CS50 - Introduction to Computer Science course. This is a redesign of Hardvard's learning platform, design with the idea of making all courses and materials easy to access.",
     image: '/images/project-plus50x.png',
@@ -24,6 +15,15 @@ export const projectsWeb = [
     source: 'https://github.com/vpopovic003/plus50x',
     video: 'https://www.youtube.com/watch?v=tWOz693ZLHE',
     id: 3,
+  },
+  {
+    title: 'Restaurant Page',
+    description: "A page for restaurant or fast food businesses.",
+      image: '/images/project-restaurant.png',
+      tags: ['ReactJS'],
+    source: 'https://github.com/vpopovic003/restaurant-page/',
+    visit: 'https://vpopovic003.github.io/restaurant-page/',
+    id: 9,
   },  
   {
     title: 'Face-Brain',
