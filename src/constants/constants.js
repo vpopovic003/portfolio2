@@ -1,7 +1,7 @@
 export const projectsWeb = [
   {
     title: 'Gitarologia',
-    description: "This is a startup project. Gitarologia is a platform that will provide comprehensive guitar courses to anyone who wants to learn. The approach is on a new proven metodology od teaching popular guitar.",
+    description: "Web School full stack application. Startup. Demo page available.",
       image: '/images/project-gitarologia.png',
       tags: ['Next.js', 'Mongo'],
     visit: 'https://gitarologia-34fg3qdnw-makragic.vercel.app/',
@@ -9,34 +9,36 @@ export const projectsWeb = [
   },
   {
     title: 'Plus50x',
-    description: "The final project for Hardvard's CS50 - Introduction to Computer Science course. This is a redesign of Hardvard's learning platform, design with the idea of making all courses and materials easy to access.",
+    description: "Full stack application. Web School for Harvard's CS50 course.",
     image: '/images/project-plus50x.png',
     tags: ['Flask', 'SQLite'],
     source: 'https://github.com/vpopovic003/plus50x',
     video: 'https://www.youtube.com/watch?v=tWOz693ZLHE',
+    visit: 'https://plus50x.onrender.com',
     id: 3,
   },
   {
+    title: 'Face-Brain',
+    description:"Full stack application. Detects faces in photos using Clarifai API and stores users and entries in a database.",
+    image: '/images/project-face-brain.png',
+    tags: ['ReactJS', 'Express', 'PostgreSQL'],
+    source: 'https://github.com/vpopovic003/face-brain',
+    visit: 'https://face-brain-8dja.onrender.com/',
+    id: 9,
+  },
+  {
     title: 'Restaurant Page',
-    description: "A page for restaurant or fast food businesses.",
+    description: "A front page for restaurants or fast food businesses.",
       image: '/images/project-restaurant.png',
       tags: ['ReactJS'],
     source: 'https://github.com/vpopovic003/restaurant-page/',
     visit: 'https://vpopovic003.github.io/restaurant-page/',
     id: 9,
   },  
-  {
-    title: 'Face-Brain',
-    description:"An app that detect faces in photos using Clarifai API.",
-    image: '/images/project-face-brain.png',
-    tags: ['ReactJS'],
-    source: 'https://github.com/vpopovic003/face-brain',
-    visit: 'https://vpopovic003.github.io/face-brain/',
-    id: 9,
-  },
+  
   {
     title: 'Robofriends',
-    description:"This is a learning project for course 'The Complete Web Developer: Zero to Mastery.' This application generates random robot images fetched from JSON data using API, and allow a user to search through them.",
+    description:"This application generates random robot images fetched from API.",
     image: '/images/project-robofriends.png',
     tags: ['ReactJS'],
     source: 'https://github.com/vpopovic003/robofriends',
@@ -45,7 +47,7 @@ export const projectsWeb = [
   },
   {
       title: 'Anitrone',
-      description: "Windows software developed for client needs. This application can animate various elements in the metronome time, and then export the animation as mp4 file. Made in Python and Python's version of a QT library for making UI-s.",
+      description: "Windows application that animates various elements and exports the animation in mp4 format.",
       image: '/images/project-anitrone.png',
       tags: ['Python', 'PyQT'],
       source: 'https://github.com/vpopovic003/anitrone-python',
@@ -54,7 +56,7 @@ export const projectsWeb = [
   },
   {
     title: 'AnitroneWEB',
-    description: "This served as a DEMO and a proof of concept for the later developed Anitrone Windows desktop application. This application can animate various elements in the metronome time.",
+    description: "Demo for Anitrone Windows app. Click on elements to change their shape, and press play for animation.",
       image: '/images/project-anitroneweb.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/anitrone-web',
@@ -63,7 +65,7 @@ export const projectsWeb = [
   },
   {
     title: 'Chordbox',
-    description: "This is a web app made for client needs, and is used making guitar chord diagrams. You can select fingers and then export the image in PNG format.",
+    description: "A small web app that creates guitar chord tabs, and exports them as PNG.",
       image: '/images/project-chordbox.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/chordbox',
@@ -72,7 +74,7 @@ export const projectsWeb = [
   },
   {
     title: 'CodeKeen',
-    description: "This is a website made with 90s aesthetics, but using modern HTML5 and CSS3 aproach. It is a fun project that I made in spare time, as I am a fan of retro website aethetics.",
+    description: "Website with 90s aesthetics. A fun project.",
       image: '/images/project-codekeen.png',
       tags: ['HTML', 'CSS', 'JavaScript'],
     source: 'https://github.com/vpopovic003/codekeen',

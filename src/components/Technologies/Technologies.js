@@ -13,10 +13,11 @@ const Technologies = () =>  (
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
-          <ListTitle>Front/Back End</ListTitle>
+          <ListTitle>Frontend</ListTitle>
           <ListParagraph>
+            HTML, CSS, JavaScript <br />
             ReactJS, Next.js <br />
-            Flask, SQLite3
+            Flask
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -26,7 +27,7 @@ const Technologies = () =>  (
           <ListTitle>Languages</ListTitle>
           <ListParagraph>
             JavaScript, Python, <br />
-            C, SQL
+            SQL
           </ListParagraph>
         </ListContainer>
       </ListItem>
